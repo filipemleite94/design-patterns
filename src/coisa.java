@@ -11,7 +11,7 @@ public abstract class coisa {
 				caso = 2;
 		}
 		else if (cor.equals("azul")){
-			if(tamanho=="pequeno")
+			if(tamanho.equals("pequeno"))
 				caso = 3;
 			else if (tamanho.equals("grande"))
 				caso = 4;
